@@ -5,7 +5,7 @@ android {
     defaultConfig {
         applicationId "com.zdk.log"
         minSdkVersion 19
-        targetSdkVersion 28
+        targetSdkVersion 21//高版本需要动态申请权限
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
